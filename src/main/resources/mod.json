@@ -1,0 +1,23 @@
+{
+  "main": "JavaSourcePingVerticle.java",
+  "include": "io.vertx~mod-web-server~2.0.0-final",
+  "description": "Put description of your module here",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Joe Bloggs",
+  // Optional fields
+  "developers": [
+    "Other Dev 1",
+    "Other Dev 2"
+  ],
+  "keywords": [
+    "gerbils",
+    "cars",
+    "cheese",
+    "chocolate",
+    "underpants",
+    "herring"
+  ],
+  "homepage": "url to your project page",
+  "auto-redeploy": true,
+  "preserve-cwd": true
+}

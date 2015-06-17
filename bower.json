@@ -1,0 +1,20 @@
+{
+  "name": "precise",
+  "version": "1.0",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/resources/webroot",
+    "test",
+    "tests",
+    "examples",
+    "demos"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-vertxbus": "~2.0.2"
+  }
+}
