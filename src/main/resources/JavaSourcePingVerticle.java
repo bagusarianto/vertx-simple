@@ -49,7 +49,7 @@ public class JavaSourcePingVerticle extends Verticle {
             @Override
             public void handle(Long timerID) {
                 Random random = new Random();
-                vertx.eventBus().send("news.feed", "halo from server " + random.nextInt(100));
+                vertx.eventBus().publish("news.feed", "halo from server " + random.nextInt(100));
             }
         });
 
